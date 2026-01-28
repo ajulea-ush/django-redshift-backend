@@ -32,13 +32,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "django<6.0",
+    "django>=2.2,<6.0",
     "backports.zoneinfo;python_version<'3.9'",
 ]
-
-[tool.poetry.dependencies]
-django = "<6.0"
-backports.zoneinfo = {version = "*", markers = "python_version < '3.9'"}
 
 [project.optional-dependencies]
 psycopg2 = [
