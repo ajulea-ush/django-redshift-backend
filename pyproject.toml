@@ -32,8 +32,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "django>=2.2,<6.0",
+    "django<6.0",
     "backports.zoneinfo;python_version<'3.9'",
+    "psycopg2-binary>=2.9.11",
 ]
 
 [project.optional-dependencies]
